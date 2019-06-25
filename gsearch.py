@@ -22,13 +22,12 @@ def reverse_gimage(imagelink : str):
 		output = []
 	except:
 		raise DecodeError("failed to decode properly. improper or unexpected data was likely supplied. updating this module may fix this")
-		for x in rawoutput:
-			output.append(x.get_text())
-		if output == "[]":
-			#return("gosh darn\n\n" + str(soup)[50:] + "\n\n...etc., etc.")
-			raise DecodeError("failed to decode properly. improper or unexpected data was likely supplied. updating this module may fix this")
-		else:
-			return(output)
+	for x in rawoutput:
+		output.append(x.get_text())
+	if output == "[]":
+		#return("gosh darn\n\n" + str(soup)[50:] + "\n\n...etc., etc.")
+		raise DecodeError("failed to decode properly. improper or unexpected data was likely supplied. updating this module may fix this")
+	return(output)
 
 def reverse_gimage_link(imagelink : str):
 	return("https://images.google.com/searchbyimage?image_url=" + str(imagelink))
