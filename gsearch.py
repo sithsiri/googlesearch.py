@@ -1,4 +1,4 @@
-import requests
+#import requests
 import bs4
 import pycurl
 import io
