@@ -9,7 +9,8 @@ class NetworkError(Error):
 
 class DecodeError(Error):
 	pass
-
+def __init__():
+	pass
 def reverse_gimage(imagelink : str):
 	try:
 		redirURL = "https://images.google.com/searchbyimage?image_url=" + imagelink

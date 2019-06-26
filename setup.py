@@ -11,9 +11,10 @@ setuptools.setup(
 	long_description=long_description,
 	long_description_content_type="text/markdown",
 	url="https://github.com/sithsiri/googlesearch.py",
-	packages=setuptools.find_packages(),
+	py_modules=['googlesearch'],
 	classifiers=[
 		"Programming Language :: Python :: 3",
+		"License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
 		"Operating System :: OS Independent",
 	],
  )
