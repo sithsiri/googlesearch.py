@@ -1,0 +1,7 @@
+README.md
+easygooglesearch.py
+setup.py
+easygooglesearch.egg-info/PKG-INFO
+easygooglesearch.egg-info/SOURCES.txt
+easygooglesearch.egg-info/dependency_links.txt
+easygooglesearch.egg-info/top_level.txt
